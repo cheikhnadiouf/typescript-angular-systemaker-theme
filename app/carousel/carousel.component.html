@@ -1,0 +1,22 @@
+ <!--Intro Section-->
+  <section *ngIf="carouselModel">
+      
+<!--Carousel Wrapper-->
+<mdb-carousel [animation]="carouselModel.animation" [interval]="carouselModel.interval" [(activeCarousel)]="carouselModel.activeCarouselIndex">
+    <!--carousel-->
+    <mdb-slide *ngFor="let carousel of carouselModel.carousels">
+        <div class="view hm-black-slight">
+            <img class="d-block w-100" src="{{ carousel.filePath }}" alt="First carousel">
+            <div class="mask waves-light" mdbRippleRadius></div>
+        </div>
+        <div class="carousel-caption">
+            <h1 class="h1-responsive">{{ carousel.title }}</h1>
+            <hr class="intro-divider">
+            <h3 class="h3-responsive">{{ carousel.description }}</h3>
+            <p>Maintenance page : coming soon</p>
+        </div>
+    </mdb-slide>
+    <!--/carousel-->
+</mdb-carousel>
+<!--/.Carousel Wrapper-->
+  </section>

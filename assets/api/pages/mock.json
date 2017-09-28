@@ -1,0 +1,42 @@
+[
+    {
+        "id": 0,
+        "title": "About us",
+        "description": "About us",
+        "body": "about us",
+        "template": "about",
+        "galleryId": 0
+    },
+    {
+        "id": 1,
+        "title": "Contact us",
+        "description": "Contact us",
+        "body": "contact us",
+        "template": "contact",
+        "galleryId": 0
+    },
+    {
+        "id": 2,
+        "title": "Application development",
+        "description": "Application development",
+        "body": "Application development",
+        "template": "appdevelopment",
+        "galleryId": 1
+    },
+    {
+        "id": 3,
+        "title": "UI and Graphic design",
+        "description": "UI and Graphic design",
+        "body": "UI and Graphic design",
+        "template": "uidesign",
+        "galleryId": 2
+    },
+    {
+        "id": 4,
+        "title": "Data modeling",
+        "description": "Data modeling",
+        "body": "Data modeling",
+        "template": "datamodeling",
+        "galleryId": 3
+    }
+]

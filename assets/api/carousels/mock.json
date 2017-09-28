@@ -1,0 +1,22 @@
+{
+        "animation": "slide",
+        "interval": 3000,
+        "activeCarouselIndex": 0,
+        "carousels": [
+        {
+            "title": "Systemaker.com",
+            "description": "Independant Software Consultant",
+            "filePath": "assets/images/intro-bg.jpg"
+        },
+        {
+            "title": "Systemaker.com",
+            "description": "Independant Software Consultant",
+            "filePath": "assets/images/intro-bg.jpg"
+        },
+        {
+            "title": "Systemaker.com",
+            "description": "Independant Software Consultant",
+            "filePath": "assets/images/intro-bg.jpg"
+        }
+    ]
+}

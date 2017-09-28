@@ -1,0 +1,9 @@
+<!--Section-->
+<div *ngIf="galleryModel"> 
+    <section class="text-center wow fadeIn" data-wow-delay="0.2s">
+        <!--Gallery Wrapper-->
+        <ngx-gallery [options]="galleryModel.options" [images]="galleryModel.list"></ngx-gallery>
+        <!--/.Gallery Wrapper-->
+    </section>
+</div>
+<!--/.Section -->

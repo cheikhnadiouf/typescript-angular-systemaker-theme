@@ -1,0 +1,178 @@
+[
+    {
+        "id": 0,
+        "options": [
+            {
+                "width": "1024px",
+                "height": "400px",
+                "thumbnailsColumns": 4,
+                "imageAnimation": "slide"
+            },
+            {
+                "breakpoint": 800,
+                "width": "100%",
+                "height": "600px",
+                "imagePercent": 80,
+                "thumbnailsPercent": 20,
+                "thumbnailsMargin": 20,
+                "thumbnailMargin": 20
+            },
+            {
+                "breakpoint": 400,
+                "preview": false
+            }
+        ],
+        "list": [
+            {
+                "description": "Independant Software Consultant",
+                "small": "assets/images/logo-systemaker-black.jpg",
+                "medium": "assets/images/logo-systemaker-black.jpg",
+                "big": "assets/images/logo-systemaker-black.jpg"
+            },
+            {
+                "description": "Independant Software Consultant",
+                "small": "assets/images/logo-systemaker-black.jpg",
+                "medium": "assets/images/logo-systemaker-black.jpg",
+                "big": "assets/images/logo-systemaker-black.jpg"
+            },
+            {
+                "description": "Independant Software Consultant",
+                "small": "assets/images/logo-systemaker-black.jpg",
+                "medium": "assets/images/logo-systemaker-black.jpg",
+                "big": "assets/images/logo-systemaker-black.jpg"
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "options": [
+            {
+                "width": "1024px",
+                "height": "400px",
+                "thumbnailsColumns": 4,
+                "imageAnimation": "slide"
+            },
+            {
+                "breakpoint": 800,
+                "width": "100%",
+                "height": "600px",
+                "imagePercent": 80,
+                "thumbnailsPercent": 20,
+                "thumbnailsMargin": 20,
+                "thumbnailMargin": 20
+            },
+            {
+                "breakpoint": 400,
+                "preview": false
+            }
+        ],
+        "list": [
+            {
+                "description": "Independant Software Consultant",
+                "small": "assets/images/logo-systemaker-black.jpg",
+                "medium": "assets/images/logo-systemaker-black.jpg",
+                "big": "assets/images/logo-systemaker-black.jpg"
+            },
+            {
+                "description": "Independant Software Consultant",
+                "small": "assets/images/logo-systemaker-black.jpg",
+                "medium": "assets/images/logo-systemaker-black.jpg",
+                "big": "assets/images/logo-systemaker-black.jpg"
+            },
+            {
+                "description": "Independant Software Consultant",
+                "small": "assets/images/logo-systemaker-black.jpg",
+                "medium": "assets/images/logo-systemaker-black.jpg",
+                "big": "assets/images/logo-systemaker-black.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "options": [
+            {
+                "width": "1024px",
+                "height": "400px",
+                "thumbnailsColumns": 4,
+                "imageAnimation": "slide"
+            },
+            {
+                "breakpoint": 800,
+                "width": "100%",
+                "height": "600px",
+                "imagePercent": 80,
+                "thumbnailsPercent": 20,
+                "thumbnailsMargin": 20,
+                "thumbnailMargin": 20
+            },
+            {
+                "breakpoint": 400,
+                "preview": false
+            }
+        ],
+        "list": [
+            {
+                "description": "Independant Software Consultant",
+                "small": "assets/images/logo-systemaker-black.jpg",
+                "medium": "assets/images/logo-systemaker-black.jpg",
+                "big": "assets/images/logo-systemaker-black.jpg"
+            },
+            {
+                "description": "Independant Software Consultant",
+                "small": "assets/images/logo-systemaker-black.jpg",
+                "medium": "assets/images/logo-systemaker-black.jpg",
+                "big": "assets/images/logo-systemaker-black.jpg"
+            },
+            {
+                "description": "Independant Software Consultant",
+                "small": "assets/images/logo-systemaker-black.jpg",
+                "medium": "assets/images/logo-systemaker-black.jpg",
+                "big": "assets/images/logo-systemaker-black.jpg"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "options": [
+            {
+                "width": "1024px",
+                "height": "400px",
+                "thumbnailsColumns": 4,
+                "imageAnimation": "slide"
+            },
+            {
+                "breakpoint": 800,
+                "width": "100%",
+                "height": "600px",
+                "imagePercent": 80,
+                "thumbnailsPercent": 20,
+                "thumbnailsMargin": 20,
+                "thumbnailMargin": 20
+            },
+            {
+                "breakpoint": 400,
+                "preview": false
+            }
+        ],
+        "list": [
+            {
+                "description": "Independant Software Consultant",
+                "small": "assets/images/logo-systemaker-black.jpg",
+                "medium": "assets/images/logo-systemaker-black.jpg",
+                "big": "assets/images/logo-systemaker-black.jpg"
+            },
+            {
+                "description": "Independant Software Consultant",
+                "small": "assets/images/logo-systemaker-black.jpg",
+                "medium": "assets/images/logo-systemaker-black.jpg",
+                "big": "assets/images/logo-systemaker-black.jpg"
+            },
+            {
+                "description": "Independant Software Consultant",
+                "small": "assets/images/logo-systemaker-black.jpg",
+                "medium": "assets/images/logo-systemaker-black.jpg",
+                "big": "assets/images/logo-systemaker-black.jpg"
+            }
+        ]
+    }
+]

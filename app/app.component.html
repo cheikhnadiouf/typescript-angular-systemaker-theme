@@ -1,0 +1,160 @@
+<header>
+
+  <!--Navbar-->
+
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark rgba-black-strong fixed-top top-nav-collapse">
+
+    <!-- Navbar brand -->
+    <logo><a class="navbar-brand" [routerLink]="['/']"  href="">
+            <img src="assets/images/logo-systemaker-white.png" height="30" class="d-inline-block align-top" alt=""> 
+            Systemaker.com
+        </a>
+    </logo>
+
+    <!-- Collapsible content -->
+    <links>
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a [routerLink]="['home']"  href="" routerLinkActive="active" class="nav-link waves-light" mdbRippleRadius>Home<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a [routerLink]="['page', 0]"  href="" routerLinkActive="active" class="nav-link waves-light" mdbRippleRadius>About</a>
+            </li>
+
+            <!-- Dropdown -->
+            <li class="nav-item dropdown" dropdown >
+                <a dropdownToggle mdbRippleRadius type="button" class="nav-link dropdown-toggle waves-light" mdbRippleRadius >
+                Services<span class="caret"></span></a>
+                <div *dropdownMenu  class="dropdown-menu dropdown dropdown-secondary" role="menu">
+                    <a class="dropdown-item waves-light" mdbRippleRadius  href="" (click)="sharedService.goLink($event, 'page/2');" routerLinkActive="active">Application development</a>
+                    <div class="divider dropdown-divider"></div>
+                    <a class="dropdown-item waves-light" mdbRippleRadius href="" (click)="sharedService.goLink($event, 'page/3');" routerLinkActive="active">UI and Graphic design</a>
+                    <div class="divider dropdown-divider"></div>
+                    <a class="dropdown-item waves-light" mdbRippleRadius href="" (click)="sharedService.goLink($event, 'page/4');" routerLinkActive="active">Data modeling</a>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a [routerLink]="['page', 1]"  href="" routerLinkActive="active" class="nav-link waves-light" mdbRippleRadius>Contact</a>
+            </li>
+
+        </ul>
+        <!-- Links -->
+
+        <!-- Search form -->
+        <form class="form-inline  waves-light" mdbRippleRadius>
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        </form>
+    </links>
+    <!-- Collapsible content -->
+
+</mdb-navbar>
+<!--/.Navbar-->
+
+<div *ngIf="router.url == '/home'">
+  <app-carousel></app-carousel>
+</div>
+<!-- Routed subsection views go here -->
+
+</header>
+
+<!-- Main container-->
+    <div class="container">
+      <router-outlet></router-outlet>
+      <!-- Routed primary views go here -->
+
+    </div>
+    <!--/ Main container-->
+
+
+
+
+
+
+   <!--Footer-->
+    <footer class="page-footer sticky-bottom center-on-small-only elegant-color-dark">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-lg-3 col-md-6 ml-auto">
+                    <h5 class="titles font-bold mt-3 mb-4">ABOUT SYSTEMAKER</h5>
+                    <p>Systemaker is an independant software consultant </p>
+                    <p>Services featuring Data modeling, Application development, UI and Graphic design</p>
+                </div>
+                <!--/.First column-->
+
+                <hr class="w-100 clearfix d-sm-none">
+
+                <!--Second column-->
+                <div class="col-lg-2 col-md-6 ml-auto">
+                    <h5 class="title font-bold mt-3 mb-4">Our R&D projects</h5>
+                    <ul>
+                        <li><a target="_blank" href="https://github.com/systemaker/python-flask-web-api-demo">Python backend api</a></li>
+                        <li><a target="_blank" href="https://github.com/systemaker/clear-and-sane-data-modeling">Data models framework</a></li>
+                        <li><a target="_blank" href="https://github.com/systemaker/typescript-angular-app-demo">Angular frontend application</a></li>
+                        <li><a target="_blank" href="https://github.com/systemaker/html5-bootstrap-demo">Bootstrap UI kits</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="w-100 clearfix d-sm-none">
+
+                <!--Third column-->
+                <div class="col-lg-2 col-md-6 ml-auto">
+                    <h5 class="title font-bold mt-3 mb-4">Our services</h5>
+                    <ul>
+                        <li><a [routerLink]="['page', 2]"  href="" routerLinkActive="active">Application development</a></li>
+                        <li><a [routerLink]="['page', 3]"  href="" routerLinkActive="active">Ui and Graphic design</a></li>
+                        <li><a [routerLink]="['page', 4]"  href="" routerLinkActive="active">Data modeling</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+
+                <hr class="w-100 clearfix d-sm-none">
+
+                <!--Fourth column-->
+                <div class="col-lg-2 col-md-6 ml-auto">
+                    <h5 class="title font-bold mt-3 mb-4">Find us on</h5>
+                    <ul>
+                        <li><a href="#!">Facebook</a></li>
+                        <li><a href="#!">Twitter</a></li>
+                        <li><a href="#!">LinkedIn</a></li>
+                        <li><a href="#!">Github</a></li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <hr>
+
+        <!--Call to action-->
+        <div class="call-to-action">
+            <h4 class="mb-5">Systemaker</h4>
+            <ul>
+                <li>
+                    <h5>Contact us</h5></li>
+                <li><a [routerLink]="['page', 1]"  href="" routerLinkActive="active" class="btn btn-info" rel="nofollow">Contact us!</a></li>
+                <li><a [routerLink]="['page', 0]"  href="" routerLinkActive="active" class="btn btn-primary" rel="nofollow">Learn more</a></li>
+            </ul>
+        </div>
+        <!--/.Call to action-->
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2017 Copyright: <a href="https://www.systemaker.com"> Systemaker.com </a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->

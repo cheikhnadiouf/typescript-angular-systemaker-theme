@@ -1,0 +1,128 @@
+<!--Section: Page -->
+<div *ngIf="pageModel && pageModel.template === 'about'">
+    <div class="divider-new pt-5">
+        <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">{{ pageModel.title }}</h2>
+    </div>
+
+    <section id="about" class="text-center wow fadeIn" data-wow-delay="0.2s">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum
+            deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem,
+            saepe eius.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum
+            deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem,
+            saepe eius.
+        </p>
+
+    </section>
+</div>
+<!--Section: Page -->
+
+<!--Section: Page -->
+<div *ngIf="pageModel && pageModel.template === 'contact'">        
+    <div class="divider-new pt-5">
+        <h2 class="h2-responsive wow fadeIn">{{ pageModel.title }}</h2>
+    </div>
+
+    <section id="contact pb-5">
+        <div class="row">
+            <!--First column-->
+            <div class="col-md-8 mb-5">
+                <img class="img-fluid z-depth-1 wow fadeIn" src="assets/images/logo-systemaker-black.png" alt="Card image cap">
+
+            </div>
+            <!--/First column-->
+
+            <!--Second column-->
+            <div class="col-md-4">
+                <ul class="text-center list-unstyled">
+                    <li class="wow fadeIn" data-wow-delay="0.2s"><i class="fa fa-map-marker blue-text fa-lg"></i>
+                        <p>Paris, France</p>
+                    </li>
+
+                    <li class="wow fadeIn mt-5 pt-2" data-wow-delay="0.3s"><i class="fa fa-phone blue-text fa-lg"></i>
+                        <p>+33 (0)0 00 00 00 00</p>
+                    </li>
+
+                    <li class="wow fadeIn mt-5 pt-2" data-wow-delay="0.4s"><i class="fa fa-envelope blue-text fa-lg"></i>
+                        <p>info@systemaker.com</p>
+                    </li>
+                </ul>
+            </div>
+            <!--/Second column-->
+        </div>
+    </section>
+</div>
+<!--Section: Page -->
+
+<!--Section: Page -->
+<div *ngIf="pageModel && pageModel.template === 'appdevelopment'">
+    <div class="divider-new pt-5">
+        <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">{{ pageModel.title }}</h2>
+    </div>
+
+    <section id="about" class="text-center wow fadeIn" data-wow-delay="0.2s">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum
+            deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem,
+            saepe eius.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum
+            deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem,
+            saepe eius.
+        </p>
+
+    </section>
+
+    <app-gallery [galleryId]="pageModel.galleryId">Loading ...</app-gallery>
+
+    
+</div>
+<!--Section: Page -->
+
+<!--Section: Page -->
+<div *ngIf="pageModel && pageModel.template === 'uidesign'">
+    <div class="divider-new pt-5">
+        <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">{{ pageModel.title }}</h2>
+    </div>
+
+    <section id="about" class="text-center wow fadeIn" data-wow-delay="0.2s">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum
+            deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem,
+            saepe eius.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum
+            deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem,
+            saepe eius.
+        </p>
+
+    </section>
+
+   <app-gallery [galleryId]="pageModel.galleryId">Loading ...</app-gallery>
+</div>
+<!--Section: Page -->
+
+<!--Section: Page -->
+<div *ngIf="pageModel && pageModel.template === 'datamodeling'">
+    <div class="divider-new pt-5">
+        <h2 class="h2-responsive wow fadeIn" data-wow-delay="0.2s">{{ pageModel.title }}</h2>
+    </div>
+
+    <section id="about" class="text-center wow fadeIn" data-wow-delay="0.2s">
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum
+            deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem,
+            saepe eius.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit explicabo assumenda eligendi ex exercitationem harum
+            deleniti quaerat beatae ducimus dolor voluptates magnam, reiciendis pariatur culpa tempore quibusdam quidem,
+            saepe eius.
+        </p>
+
+    </section>
+
+    <app-gallery [galleryId]="pageModel.galleryId">Loading ...</app-gallery>
+</div>
+<!--Section: Page -->
