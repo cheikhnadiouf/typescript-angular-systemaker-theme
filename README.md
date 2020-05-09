@@ -1,3 +1,5 @@
+Alert: Sadly, I don't have time to maintain this.
+
 Typescript Angular Systemaker theme demo
 ========================
 Typescript angular 4 demo application with systemaker theme and Material design for bootstrap framework (free version)
